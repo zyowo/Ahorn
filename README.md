@@ -41,35 +41,36 @@ The possible actions in Ahorn are listed on the right, just select one to use it
 Hold right click to move around the map. Left click is your main way to place an object or select something. Tools like rectangle or line require holding left click while moving across the screen. Scroll to zoom.
 
 Ahorn supports a couple of keybinds and special mouse functionality, with more to come. The following list might not be comprehensive.
- - Ctrl + t: New room
- - Ctrl + shift + t: Configure current room
- - Ctrl + n: New map
- - Ctrl + m: Metadata window
- - Ctrl + shift + alt + s: Open settnings window
- - q, e: shrink / grow width on selected
- - a, d: shrink / grow height on selected
- - Arrow keys: move selected
- - Left mouse button over selected: dragging selected
- - Holding ctrl + any of the above: use 1 as step size instead of 8 for more fine-grained placements
- - Shift selecting keeps previous selection as well
- - Ctrl + f: Focus search field
- - Ctrl + c: Copy selection
- - Ctrl + x: Cut selection
- - Ctrl + v: Paste selection
- - Ctrl + z: Undo changes
- - Ctrl + shift + z: Redo changes
- - Esc/Enter: Exit search field
- - v, h: vertical / horizontal mirror of decal
- - delete: delete the given node / target
- - n/+: add node to target (after the targeted node / entity)
- - Middle click: pick what's currently under the cursor in the selected layer
- - Ctrl + number key row 0-9: shortcuts to select tools
- - Alt + arrow keys: move a room
- - Alt + delete: delete room
- - Double click layer name in selection menu: toggle visibility
- - Right click entity / trigger with placements / selection tool: open properties menu
- - Double click with selections selects all similar targets
- - Holding ctrl when doing the above restricts it to targets in a more strict manner
+- 【Ctrl + t】新房间
+- 【Ctrl + shift + t】配置当前房间
+- 【Ctrl + n】新地图
+- 【Ctrl + m】Metadata（元数据）窗口
+- 【Ctrl + shift + alt + s】打开设置窗口
+- 【q, e】缩小/增大所选宽度
+- 【a, d】缩小/增大所选高度
+- 【方向键】移动所选
+- 【在所选上鼠标左键】拖动所选
+- 【按住 Ctrl + 以上任何一项】用 1 而不是 8 作为步长作更细致的放置
+- 【Shift】选择也会保持之前的选择物
+- 【Ctrl + f】光标激活到搜索区域
+- 【Ctrl + c】复制所选
+- 【Ctrl + x】剪切所选
+- 【Ctrl + v】粘贴所选
+- 【Ctrl + z】撤销
+- 【Ctrl + shift + z】重做
+- 【Esc/Enter】退出搜索区域
+- 【v, h】垂直/水平翻转贴图
+- 【delete】删除给定的节点/目标
+- 【n/+】将节点添加到目标（在目标节点/实体之后）
+- 【鼠标中键】选择所选层中光标下方的当前内容
+- 【Ctrl + number key row 0-9】选择工具的快捷方式
+- 【Alt + arrow keys】移动一个房间
+- 【Alt + delete】删除房间
+- 【在选择菜单双击图层名】切换可见性
+- 【用放置、选择工具右键点击实体/触发器】打开属性菜单
+- 【双击选择物】选择所有相似的目标
+- 【执行上述操作时按住ctrl】可以将其限制为更严格的目标
+
 
  With Everest installed and Celeste running in debug mode, it supports some more:
  - Ctrl + alt + leftclick on a room in Ahorn: teleport to that room in the game
